@@ -53,7 +53,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     user: {
       name: "shadcn",
       email: "m@example.com",
-      avatar: "/avatars/shadcn.jpg",
+      avatar: "/avatar.jpg",
     },
     navMain: addActiveState([
       {
@@ -106,6 +106,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             url: "#",
           },
         ],
+      },
+      {
+        title: "Examples",
+        url: "/example",
+        icon: BookOpenIcon,
       },
     ]),
     projects: [
